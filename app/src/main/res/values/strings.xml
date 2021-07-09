@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">imc_APP</string>
+    <string name="todo">TODO</string>
+    <string name="informações">info</string>
+    <string name="saiba_mais">Saiba mais..</string>
+    <string name="tabela_imc">Tabela IMC</string>
+    <string name="calculadora">Calculadora</string>
+    <string name="maghe_app">Maghe App</string>
+</resources>

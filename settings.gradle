@@ -1,0 +1,2 @@
+rootProject.name = "imc_APP"
+include ':app'
