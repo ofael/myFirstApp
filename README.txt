@@ -1,7 +1,5 @@
 # MAGHE IMC CALCULATOR APP :pager:
 
-![](app/src/main/res/drawable-v24/main.png)
-
-
+![main_layout](/imagens/main.png)
 
 - Main Layout
