@@ -2,8 +2,14 @@
     <string name="app_name">imc_APP</string>
     <string name="todo">TODO</string>
     <string name="informações">info</string>
+    <string name="menu">Menu</string>
     <string name="saiba_mais">Saiba mais..</string>
     <string name="tabela_imc">Tabela IMC</string>
-    <string name="calculadora">Calculadora</string>
+    <string name="calculadora">Calculadora IMC</string>
     <string name="maghe_app">Maghe App</string>
+    <string name="pesoInfo">Digite seu peso(Exemplo: 65.3kg)</string>
+    <string name="alturaInfo">Digite sua altura(Exemplo: 1.70m)</string>"
+    <string name="calcularBtn">Calcular</string>
+    <string name="creat_acc">Criar Conta</string>
+    <string name="resultadoImc">Não é possível afirmar que uma pessoa com peso normal é mais saudável do que uma com sobrepeso apenas observando o índice IMC. Esse é apenas um entre muitos fatores que os médicos avaliam antes de dar qualquer tipo de diagnóstico para um paciente. Por isso, ao descobrir o seu IMC, não tome decisões sobre o que fazer a seguir sem antes se consultar com um médico.</string>
 </resources>

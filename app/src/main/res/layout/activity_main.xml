@@ -12,7 +12,7 @@
         android:id="@+id/title_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Menu"
+        android:text="@string/menu"
         android:textSize="24sp"
         android:textStyle="bold"
         android:layout_margin="12dp"/>
@@ -45,6 +45,7 @@
                 android:orientation="vertical">
 
                 <ImageView
+                    android:contentDescription="@string/calculadora"
                     android:layout_width="122dp"
                     android:layout_height="122dp"
                     android:src="@drawable/calc" />
@@ -58,7 +59,8 @@
                     android:linksClickable="false"
                     android:longClickable="false"
                     android:onClick="btSelect"
-                    android:text="Calculadora" />
+                    android:text="@string/calculadora"
+                    />
 
 
             </LinearLayout>
@@ -84,6 +86,7 @@
                 android:orientation="vertical">
 
                 <ImageView
+                    android:contentDescription="@string/tabela_imc"
                     android:layout_width="122dp"
                     android:layout_height="122dp"
                     android:src="@drawable/imc" />
@@ -93,7 +96,7 @@
                     android:layout_width="155dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="bottom|center"
-                    android:text="Tabela IMC" />
+                    android:text="@string/tabela_imc" />
 
 
             </LinearLayout>
@@ -118,6 +121,7 @@
                 android:orientation="vertical">
 
                 <ImageView
+                    android:contentDescription="@string/saiba_mais"
                     android:layout_width="122dp"
                     android:layout_height="122dp"
                     android:src="@drawable/saibamais" />
@@ -127,7 +131,7 @@
                     android:layout_width="155dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="bottom|center"
-                    android:text="Saiba mais.." />
+                    android:text="@string/saiba_mais" />
 
 
             </LinearLayout>
@@ -152,16 +156,18 @@
                 android:orientation="vertical">
 
                 <ImageView
+                    android:contentDescription="@string/informações"
                     android:layout_width="122dp"
                     android:layout_height="122dp"
-                    android:src="@drawable/info" />
+                    android:src="@drawable/creat_account" />
 
                 <Button
-                    android:id="@+id/info_btn"
+                    android:id="@+id/creat_btn"
                     android:layout_width="155dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="bottom|center"
-                    android:text="Info" />
+                    android:onClick="btSelect"
+                    android:text="@string/creat_acc" />
 
 
             </LinearLayout>

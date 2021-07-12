@@ -8,8 +8,10 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:name=".aplication.UsuariosAplication"
         android:theme="@style/Theme.Imc_APP">
-        <activity android:name=".activity_calc"></activity>
+        <activity android:name=".ActivityCriarConta"></activity>
+        <activity android:name=".ActivityCalc" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
